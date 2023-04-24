@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "347087862176",
+    "project_id": "placement-registration-system",
+    "storage_bucket": "placement-registration-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347087862176:android:3663adc25849138bcb8cc5",
+        "android_client_info": {
+          "package_name": "com.example.placement_registrationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347087862176-7jgffm1php9i4ouovs5tatmr2ojtefqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDatdiqSayqB_H_m_rD704Zak7u1Gt3dcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347087862176-7jgffm1php9i4ouovs5tatmr2ojtefqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".drives">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Titlemain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9C27B0"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Drives for you"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/TITLEDRIVE"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="ASPIRE FOR HER"
+                android:textSize="20sp"
+                android:textStyle = "bold"
+                android:textColor = "#FF000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/DRIVECODE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:textStyle = "bold"
+                android:text="Drive Code: "
+                android:textColor="#FF000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/DRIVECODE2"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:text="IN.31285.2024.36724 "
+                android:textColor="#FF000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Venue1"
+                    android:layout_width="87dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="Venue: "
+                    android:textStyle = "bold"
+                    android:textColor="#FF000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/Venue2"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="From your respective locations"
+                    android:textColor="#FF000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/stream1"
+                    android:layout_width="87dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="Stream: "
+                    android:textStyle = "bold"
+                    android:textColor="#FF000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/stream2"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="CSE/IT,ECE"
+                    android:textColor="#FF000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/PACKAGE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:background = "#A6E3FF"
+                android:text="Package: NA"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/jobprofilebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E91E63"
+                android:padding="5dp"
+                android:paddingLeft="15dp"
+                android:text="See Job Profile "
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cornerRadius="5dp"/>
+
+            <Button
+                android:id="@+id/RegisterBtn"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#E91E63"
+                android:padding="5dp"
+                android:paddingLeft="15dp"
+                android:text="Register "
+                android:textSize="15dp"
+                app:cornerRadius="5dp" />
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            android:layout_margin="5dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/TITLEDRIVE2"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="UNSTOP"
+                    android:textSize="20sp"
+                    android:textStyle = "bold"
+                    android:textColor = "#FF000000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/SECDRIVECODE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:textStyle = "bold"
+                        android:text="Drive Code: "
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/DRIVECODEANS"
+                        android:layout_width="174dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="TE.29486.2024.36724 "
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/SECVENUE"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="Venue: "
+                        android:textStyle = "bold"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/SECVENUEANS"
+                        android:layout_width="252dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="From your respective locations"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/SECSTREAM"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="Stream: "
+                        android:textStyle = "bold"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/SECSTREAMANS"
+                        android:layout_width="252dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="CSE/IT,ECE"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/SECPACKAGE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background = "#A6E3FF"
+                    android:text="Package: Prizes"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/jobprofilebtn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#E91E63"
+                        android:padding="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="See Job Profile "
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cornerRadius="5dp"/>
+
+                    <Button
+                        android:id="@+id/RegisterBtn2"
+                        android:layout_width="147dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#E91E63"
+                        android:padding="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="Register "
+                        android:textSize="15dp"
+                        app:cornerRadius="5dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            android:layout_margin="5dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/TITLEDRIVE3"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="NOWPURCHASE"
+                    android:textSize="20sp"
+                    android:textStyle = "bold"
+                    android:textColor = "#FF000000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/THRDRIVECODE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:textStyle = "bold"
+                        android:text="Drive Code: "
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/THRDRIVECODEANS"
+                        android:layout_width="174dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="TC.29357.2024.34524 "
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/THRVENUE"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="Venue: "
+                        android:textStyle = "bold"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/THRVENUEANS"
+                        android:layout_width="252dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="As per UMS announcement"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/THRSTREAM"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="Stream: "
+                        android:textStyle = "bold"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/THRSTREAMANS"
+                        android:layout_width="252dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="CSE/IT"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/THRPACKAGE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background = "#A6E3FF"
+                    android:text="Package: Stipend Rs 30,000PM To Rs 40,000PM During Internship Then CTC Rs.10 LPA To Rs 13 LPA."
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/jobprofilebtn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#E91E63"
+                        android:padding="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="See Job Profile "
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cornerRadius="5dp"/>
+
+                    <Button
+                        android:id="@+id/RegisterBtn3"
+                        android:layout_width="147dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#E91E63"
+                        android:padding="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="Register "
+                        android:textSize="15dp"
+                        app:cornerRadius="5dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            android:layout_margin="5dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/TITLEDRIVE4"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="DEVREV"
+                    android:textSize="20sp"
+                    android:textStyle = "bold"
+                    android:textColor = "#FF000000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/FORDRIVECODE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:textStyle = "bold"
+                        android:text="Drive Code: "
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/FORDRIVECODEANS"
+                        android:layout_width="174dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="TC.31526.2024.39724 "
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/FORVENUE"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="Venue: "
+                        android:textStyle = "bold"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/FORVENUEANS"
+                        android:layout_width="252dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="As per UMS announcement"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/FORSTREAM"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="Stream: "
+                        android:textStyle = "bold"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/FORSTREAMANS"
+                        android:layout_width="252dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:text="CSE/IT,ECE"
+                        android:textColor="#FF000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/FORPACKAGE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background = "#A6E3FF"
+                    android:text="Package: Package: Stipend Rs 15,000PM To Rs 30,000PM During 10 TO 14 weeks training Then stipend Rs 30,000 To 40,000 PM During Internship Then  CTC Rs. 12 LPA"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/jobprofilebtn4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#E91E63"
+                        android:padding="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="See Job Profile "
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cornerRadius="5dp"/>
+
+                    <Button
+                        android:id="@+id/RegisterBtn4"
+                        android:layout_width="147dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#E91E63"
+                        android:padding="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="Register "
+                        android:textSize="15dp"
+                        app:cornerRadius="5dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

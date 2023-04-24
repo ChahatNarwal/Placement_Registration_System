@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Placement_RegistrationSystem</string>
+    <string-array name="degree">
+        <item>Select Degree</item>
+        <item>B.Tech</item>
+        <item>BCA</item>
+        <item>MCA</item>
+        <item>LAW</item>
+        <item>B.SC</item>
+        <item>Journalism</item>
+        <item>Fashion Designing</item>
+        <item>Agriculture</item>
+        <item>B.E</item>
+        <item>M.E</item>
+        <item>BBA</item>
+        <item>MBA</item>
+        <item>M.TECH</item>
+    </string-array>
+
+    <string-array name="specialization">
+        <item>Select specialization</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>IT</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Aerospace Engineering</item>
+        <item>Marine Engineering</item>
+        <item>Software Development</item>
+        <item>Management Information Systems (MIS)</item>
+        <item>Hardware Technology</item>
+        <item>None</item>
+    </string-array>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
