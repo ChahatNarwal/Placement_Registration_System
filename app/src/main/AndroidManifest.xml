@@ -17,6 +17,27 @@
         android:theme="@style/Theme.Placement_RegistrationSystem"
         tools:targetApi="31">
         <activity
+            android:name=".rating"
+            android:exported="false" />
+        <activity
+            android:name=".help_activity"
+            android:exported="false" />
+        <activity
+            android:name=".contactus"
+            android:exported="false" />
+        <activity
+            android:name=".uploadcv"
+            android:exported="false" />
+        <activity
+            android:name=".newactivity"
+            android:exported="false" />
+        <activity
+            android:name=".announcement"
+            android:exported="false" />
+        <activity
+            android:name=".notification"
+            android:exported="false" />
+        <activity
             android:name=".Now"
             android:exported="false" />
         <activity

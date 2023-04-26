@@ -73,6 +73,7 @@ class Loginactivity : AppCompatActivity() {
         newuser.setOnClickListener {
             val signupIntent = Intent(this, Signupactivity::class.java)
             startActivity(signupIntent)
+
         }
     }
 

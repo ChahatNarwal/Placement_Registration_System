@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/helpback"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to our job placement page! Our platform connects job seekers with employers looking to fill open positions. To help you make the most of our platform, we've put together some tips and resources:"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job search tips:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use specific keywords to search for jobs that match your skills and experience.
+.Set up job alerts to receive notifications when new jobs are posted.
+Network with others in your field to learn about new job opportunities."
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resources:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check out our career coaching services for personalized job search support.
+Use our resume writing guide to create a winning resume.
+Browse our job search articles for more tips and advice.
+
+
+
+"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FAQs:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Do I need to create an account to apply for a job?
+A: Yes, you will need to create an account to apply for a job. This allows you to save job searches, set up job alerts, and apply for jobs more easily in the future.
+
+Q: How do I upload my resume and cover letter?
+A: After creating an account, you can upload your resume and cover letter by going to the MyProfile section and selecting Upload Resume and Upload Cover Letter. You can also copy and paste your resume and cover letter into the appropriate fields.
+
+Q: How long does it take to hear back from an employer after applying?
+A: It varies from employer to employer. Some may respond within a few days, while others may take several weeks. If you haven't heard back after a week or two, it's okay to follow up with the employer to express your continued interest in the job.
+
+Q: Can I apply for multiple jobs at once?
+A: Yes, you can apply for multiple jobs at once, but it's important to customize your application materials for each job to ensure they are relevant to the specific position and employer.
+
+Q: How do I prepare for an interview?
+A: Research the company and the job position, practice your responses to common interview questions, dress appropriately, and arrive on time. It's also important to bring a copy of your resume and cover letter, as well as any relevant work samples or references.
+
+Q: How do I negotiate salary and benefits?
+A: Research the typical salary range for the position and industry, and be prepared to discuss your qualifications and experience. When negotiating benefits, consider the company's offerings and how they align with your needs and priorities.
+
+"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="24dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

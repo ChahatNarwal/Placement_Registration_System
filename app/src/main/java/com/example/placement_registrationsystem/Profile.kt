@@ -9,8 +9,10 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.ktx.Firebase
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.time.LocalDateTime
@@ -41,8 +43,11 @@ class Profile : AppCompatActivity() {
         val rettspecail = findViewById<TextView>(R.id.specializationdisplay)
         val rettaddress = findViewById<TextView>(R.id.currentaddressdisplay)
         val rettCgpa = findViewById<TextView>(R.id.CurrentcgpaDisplay)
-        database = FirebaseDatabase.getInstance().getReference("DATA LIST")
-        database.child(current).get().addOnSuccessListener {
+
+//        val intent = intent
+//        var userId = intent.getStringExtra("key")
+//        val database = FirebaseDatabase.getInstance().reference
+        FirebaseDatabase.getInstance().getReference("DATA LIST").child(Firebase.auth.currentUser!!.uid).get().addOnSuccessListener {
 
             if (it.exists()){
 

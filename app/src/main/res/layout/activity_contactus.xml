@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcontact"
+    tools:context=".contactus">
+
+    <TextView
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="division_of_career_services"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/contact_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email_placement_lpu_co_in"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone_91_1824_444500"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/contact_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tel_91_9915020421"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/contact_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="website_http_www_lpu_in_placements_php"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

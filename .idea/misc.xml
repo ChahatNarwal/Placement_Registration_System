@@ -3,25 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/drawable/box_background.xml" value="0.1675" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/drawable/littlewhiteborder.xml" value="0.1585" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/drawable/progress_layout.xml" value="0.1155" />
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/drawable/ratingbar.xml" value="0.1675" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/drawable/rectangle_border.xml" value="0.1575" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/drawable/recycler_item.xml" value="0.149" />
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/drawable/rounded_corners.xml" value="0.1675" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/drawable/whitebox.xml" value="0.1585" />
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_announcement.xml" value="0.20416666666666666" />
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_contactus.xml" value="0.20416666666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_dashboard_drawer.xml" value="0.25" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_devrev.xml" value="0.19010416666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_drives.xml" value="0.20416666666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_forgotpassword_dialog.xml" value="0.22" />
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_help.xml" value="0.20416666666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_job_profile.xml" value="0.19010416666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_loginactivity.xml" value="0.25" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_main_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_newactivity.xml" value="0.19010416666666666" />
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_notification.xml" value="0.20416666666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_now.xml" value="0.19010416666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_progress_layout.xml" value="0.19610507246376813" />
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_rating.xml" value="0.20416666666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_registration_form.xml" value="0.18" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_signupactivity.xml" value="0.1" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_unstop.xml" value="0.20416666666666666" />
+        <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/activity_uploadcv.xml" value="0.20416666666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/devrev.xml" value="0.20416666666666666" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/nev_header.xml" value="0.1" />
         <entry key="..\:/flutter_projects/Placement_RegistrationSystem/app/src/main/res/layout/recycler_item.xml" value="0.153125" />

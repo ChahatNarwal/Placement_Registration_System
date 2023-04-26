@@ -3,6 +3,7 @@ package com.example.placement_registrationsystem
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.cardview.widget.CardView
 import androidx.drawerlayout.widget.DrawerLayout
@@ -17,9 +18,12 @@ class DASHBOARD_DRAWER : AppCompatActivity() {
         val navView : NavigationView = findViewById(R.id.navigationdrawer)
         val cardview2 : CardView = findViewById(R.id.cardView2)
         val cardview3 : CardView= findViewById(R.id.cardView3)
+        val intent = intent
+        var userId = intent.getStringExtra("key")
 
         cardview2.setOnClickListener {
             val intent = Intent(this,Profile::class.java)
+            intent.putExtra("key", userId)
             startActivity(intent)
         }
 
@@ -36,6 +40,7 @@ class DASHBOARD_DRAWER : AppCompatActivity() {
             when(it.itemId) {
                 R.id.profile -> {
                     val intent = Intent(this, Profile::class.java)
+                    intent.putExtra("key", userId)
                     startActivity(intent)
                     true
                 }
@@ -49,6 +54,38 @@ class DASHBOARD_DRAWER : AppCompatActivity() {
                     startActivity(intent)
                     true
                 }
+                R.id.uploadcv -> {
+                    val intent = Intent(this, uploadcv::class.java)
+                    startActivity(intent)
+                    true
+                }
+
+                R.id.logout -> {
+                    val intent = Intent(this, Loginactivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.announcement -> {
+                    val intent = Intent(this, announcement::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.contactus -> {
+                    val intent = Intent(this, contactus::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.help -> {
+                    val intent = Intent(this, help_activity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.ratingapp -> {
+                    val intent = Intent(this, rating::class.java)
+                    startActivity(intent)
+                    true
+                }
+
                 else -> {
                     false
                 }

@@ -21,7 +21,44 @@
         android:title="Drives"
         android:icon = "@drawable/ic_baseline_library_books_24"
         />
+    <item
+        android:id="@+id/announcement"
+        android:title="announcement"
+        android:icon = "@drawable/ic_baseline_announcement_24"
+        />
+
+    <item
+        android:id="@+id/uploadcv"
+        android:title="Upload Cv"
+        android:icon = "@drawable/ic_baseline_cloud_upload_24"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Log-Out"
+        android:icon = "@drawable/ic_baseline_login_24"
+        />
+
+    <item
+        android:id="@+id/contactus"
+        android:title="Contact Us"
+        android:icon = "@drawable/ic_baseline_contact_phone_24"
+        />
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:icon = "@drawable/ic_baseline_help_24"
+        />
+    <item
+        android:id="@+id/ratingapp"
+        android:title="Rate us"
+        android:icon = "@drawable/ic_baseline_grade_24"
+        />
     </group>
+
+
+
+
 
 
 </menu>
