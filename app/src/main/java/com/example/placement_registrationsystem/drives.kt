@@ -108,8 +108,8 @@ class drives : AppCompatActivity() {
 
                     ad.setPositiveButton("Yes") {Dialog, which ->
                         Toast.makeText(this,"Successfully deegistered",Toast.LENGTH_LONG).show()
-                        registerbtn.setBackgroundColor(resources.getColor(R.color.pink))
-                        registerbtn.text = "Register"
+                        devrevregbtn.setBackgroundColor(resources.getColor(R.color.pink))
+                        devrevregbtn.text = "Register"
 
                     }
                     ad.setNegativeButton("No") {x,y ->
@@ -149,8 +149,8 @@ class drives : AppCompatActivity() {
 
                     ad.setPositiveButton("Yes") {Dialog, which ->
                         Toast.makeText(this,"Successfully deegistered",Toast.LENGTH_LONG).show()
-                        registerbtn.setBackgroundColor(resources.getColor(R.color.pink))
-                        registerbtn.text = "Register"
+                        unregbtn.setBackgroundColor(resources.getColor(R.color.pink))
+                        unregbtn.text = "Register"
 
                     }
                     ad.setNegativeButton("No") {x,y ->
@@ -190,8 +190,8 @@ class drives : AppCompatActivity() {
 
                     ad.setPositiveButton("Yes") {Dialog, which ->
                         Toast.makeText(this,"Successfully deegistered",Toast.LENGTH_LONG).show()
-                        registerbtn.setBackgroundColor(resources.getColor(R.color.pink))
-                        registerbtn.text = "Register"
+                        nowRegbtn.setBackgroundColor(resources.getColor(R.color.pink))
+                        nowRegbtn.text = "Register"
 
                     }
                     ad.setNegativeButton("No") {x,y ->

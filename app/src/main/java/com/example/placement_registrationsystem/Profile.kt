@@ -1,5 +1,7 @@
 package com.example.placement_registrationsystem
 
+import android.graphics.BitmapFactory
+import android.media.Image
 import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -8,11 +10,14 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
+import com.google.firebase.storage.FirebaseStorage
+import java.io.File
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.time.LocalDateTime
@@ -20,6 +25,7 @@ import java.util.*
 
 class Profile : AppCompatActivity() {
     private lateinit var database : DatabaseReference
+    val storage = FirebaseStorage.getInstance()
 //    private lateinit var firebaseAuth: FirebaseAuth
     var imageURL: String? = null
     var uri: Uri? = null
@@ -81,8 +87,28 @@ class Profile : AppCompatActivity() {
 
         }
 
+//        val storageRef = storage.reference
+//        val imageRef = storageRef.child("Task Images").child(uri!!.lastPathSegment!!)
+//        val imgref = FirebaseStorage.getInstance().reference.child("Task Images").child(uri!!.lastPathSegment!!)
+//        imgref.downloadUrl.addOnSuccessListener { imuri ->
+//            Glide.with(this)
+//                .load(imuri)
+//                .into(profileImage)
+//        }.addOnFailureListener {
+//            Toast.makeText(this,"Can't retreive image",Toast.LENGTH_LONG).show()
+//
+//        }
 
-
+//        val localFile = File.createTempFile("image", "jpg")
+//        imgref.getFile(localFile).addOnSuccessListener {
+//                taskSnapshot ->
+//            val bitmap = BitmapFactory.decodeFile(localFile.absolutePath)
+//            profileImage.setImageBitmap(bitmap)
+//
+//
+//        }.addOnFailureListener {
+//            Toast.makeText(this,"Can't retreive image",Toast.LENGTH_LONG).show()
+//        }
 
     }
 }
